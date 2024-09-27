@@ -53,6 +53,7 @@ class _TempConverterState extends State<TempConverter> {
       ),
       body: OrientationBuilder(
         builder: (context, orientation) {
+          print('Orientation: $orientation');
           return SingleChildScrollView(
             padding: const EdgeInsets.all(16.0),
             child: Column(
